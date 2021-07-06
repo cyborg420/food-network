@@ -17,6 +17,13 @@ h3 {
 .half-width {
     width: 50%;
     padding-left: 5%;
+    
+}
+.mid-banner img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .order-button {
     background-image: linear-gradient(red,salmon);
@@ -26,6 +33,12 @@ h3 {
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 5px;
+}
+.mid-banner {
+    background-image: url(images/frame/Frame-mid.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 .my-recipe {
     text-align: center;
@@ -37,17 +50,19 @@ h3 {
 }
 .recipe-items {
     margin-left: 5%;
-    margin-right: 5%;  
+    margin-right: 5%; 
+
 }
 .item {
     width: 30%;
     padding-left: 10px;
     padding-right: 10px;
-    align-items: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .item img {
-    height: 200px;
-    width: 300px;
+    height: 60%;
+    width: 80%;
     border-radius: 10px;
 }
 .social-media {
@@ -55,6 +70,12 @@ h3 {
     margin-right: 5%; 
     background-image: linear-gradient(white,lightgray);
     border-radius: 10px;
+}
+.social-media-item {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
 }
 .footer {
     text-align: center;
